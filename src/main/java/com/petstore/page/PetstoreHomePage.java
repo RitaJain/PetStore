@@ -10,7 +10,7 @@ public class PetstoreHomePage {
     private By signInLink = By.xpath("//a[contains(text(),'Sign In')]");
     private By searchBox= By.cssSelector ("div#SearchContent input[name='keyword']");
     private By searchButton= By.cssSelector ("div#SearchContent input[name='searchProducts']");
-    private By Doglink =By.xpath("//div[@id='Content']//a[2]//img[1]");
+    private By Doglink =By.cssSelector("div#SidebarContent>a:nth-child(4)");
 
     public PetstoreHomePage(WebDriver driver) {
         this.driver = driver;

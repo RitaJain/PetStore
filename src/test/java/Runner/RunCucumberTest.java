@@ -19,7 +19,7 @@ A- Pretty: Prints the Gherkin source with additional colors and stack traces for
 @CucumberOptions(
         features = {"/home/lenovo/petstore/src/test/java/Features"},
                 plugin = {"pretty","html:cucumber_reports","json:cucumber_reports/cucumber.json","junit:cucumber_reports/cucumber.xml"},
-        monochrome = true,tags = {"@Smoke,@Regression"},
+        monochrome = true,tags = {"not @avoid","@smoke","@regression"},
         glue = {"Steps"},
         dryRun=false
 )
