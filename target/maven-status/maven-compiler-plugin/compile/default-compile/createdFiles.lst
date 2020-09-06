@@ -1,0 +1,10 @@
+com/petstore/page/RegisterPage.class
+com/petstore/page/NewOrderPage.class
+common/Base.class
+com/petstore/page/OrderConfirmationPage.class
+com/petstore/page/OrderSuccessPage.class
+com/petstore/page/SignInPage.class
+com/petstore/page/ProductListPage.class
+com/petstore/page/PetstoreHomePage.class
+com/petstore/page/ShoppingCartPage.class
+com/petstore/page/searchResultPage.class

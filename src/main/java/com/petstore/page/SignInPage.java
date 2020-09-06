@@ -16,7 +16,7 @@ public class SignInPage {
             this.driver = driver;
         }
 
-        public WebElement username() {
+        public WebElement getUsername() {
             return driver.findElement (username);
         }
 

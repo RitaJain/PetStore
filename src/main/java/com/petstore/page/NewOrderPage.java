@@ -20,7 +20,7 @@ public class NewOrderPage {
     private By Country=By.xpath("//input[@name='order.billCountry']");
     private By continueButton= By.cssSelector("input[name='newOrder']");
     private By ShippingAddressCheckbox=By.xpath("//input[@name='shippingAddressRequired']");
-    private By OrderConfirmButton= By.xpath("//a[contains(text(),'Confirm')]");
+    private By OrderConfirmButton= By.cssSelector("input[name='newOrder'][type='submit'][value='Continue']");
     private By PaymentDetailSection=By.xpath("//th[contains(text(),'Payment Details')]");
 
 
