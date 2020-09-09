@@ -1,4 +1,4 @@
-# PetStore API Testing
+# PetStore UI  Testing
 
 ## Table of contents
 * [PetStore Website Testcases](#General info)
